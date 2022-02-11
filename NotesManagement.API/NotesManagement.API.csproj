@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NotesManagement.Entity\NotesManagement.Entity.csproj" />
+		<ProjectReference Include="..\NotesManagement.Service\NotesManagement.Service.csproj" />
+		<ProjectReference Include="..\NotesManagement.Utility\NotesManagement.Utility.csproj" />
+	</ItemGroup>
+
+</Project>
